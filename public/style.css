@@ -15,6 +15,9 @@ nav {
 .grey{
     color: #918E9B;
 }
+section {
+    padding: 20px;
+}
 .nav-logo{
     max-width: 100px;
 }
@@ -32,14 +35,28 @@ nav {
 .Hero-text{
     margin-top: 0;
 }
+.card-list{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
 .card{
     box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
-    width:75px;
+    width:175px;
     font-size: 12px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 .card-image{
     width:100%;
     border-radius: 9px;
+    margin-bottom: 9px;
+}
+.card-title{
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .card-stats{
     display: flex;
@@ -50,4 +67,7 @@ nav {
 }
 .bold{
     font-weight: bold ;
+}
+.card-price{
+    margin-top:auto;
 }
