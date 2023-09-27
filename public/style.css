@@ -6,43 +6,52 @@ body {
     font-family: "Karla", sans-serif;
     margin: 0;
 }
-main{
+
+main {
     padding: 36px;
 }
+
 .header {
-    display:flex;
+    display: flex;
     align-items: center;
     height: 65px;
     background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
     color: white;
     padding: 20px;
 }
-.header-img{
+
+.header-img {
     height: 100%;
     margin-right: 6px;
 }
-.header-title{
+
+.header-title {
     font-size: 1.25rem;
     margin-right: auto;
 }
-.header-project{
-    font-size: .75rem;
+
+.header-project {
+    font-size: 0.75rem;
     font-weight: 500;
 }
-form{
+
+.form {
     display: grid;
     grid-template: 40px 40px / 1fr 1fr;
     gap: 17px;
 }
-.form-input{
+
+.form-input {
     font-family: "Karla", sans-serif;
     border-radius: 5px;
-    border:  1px solid #d5d4d8;
+    border: 1px solid #D5D4D8;
     text-indent: 5px;
 }
-.btn{
-    grid-column: 1/-1;
+
+.btn {
+    grid-column: 1 / -1;
     font-family: "Karla", sans-serif;
+    border-radius: 5px;
     background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
     color: white;
     border: none;
